@@ -23,3 +23,6 @@ print(type(d),d)
   #dictionary
 d={1:"anu",2:"anji"}
 print(type(d),d)
+  #range
+e=range(10)
+print(type(e),e)
