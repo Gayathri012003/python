@@ -1,4 +1,4 @@
-#1
+#1largest of three numbers
 a=int(input("enter a number:"))
 b=int(input("enter a number:"))
 c=int(input("enter a number:"))
@@ -11,13 +11,13 @@ elif b>c:
     print("b is big")
 else:
     print("c is big")
-#2
+#2leap year
 year=int(input("enter year:"))
 if (year%4==0 and year%100!=0) or year%400==0:
             print("leap year")
 else:
         print("not leap year")
-#4
+#4Grade
 Grade=int(input("enter grade of the student:"))
 if Grade>100:
     print("not defined")
@@ -29,7 +29,7 @@ elif Grade>=70 and Grade<=79:
     print("Grade C")
 else:
     print("Fail")
-#4
+#4to check given numbers form valid triangle or not
 a=int(input("enter a number:"))
 b=int(input("enter a number:"))
 c=int(input("enter a number:"))
