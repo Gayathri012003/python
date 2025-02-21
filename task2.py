@@ -17,6 +17,16 @@ if (year%4==0 and year%100!=0) or year%400==0:
             print("leap year")
 else:
         print("not leap year")
+#3vowels
+char=str(input("Enter the letter:"))
+if char.lower() in "aeiou":
+    print(char,"is vowel")
+else:
+    try:
+        int(char) 
+        print("invalid") 
+    except ValueError:
+        print(char, "is consonant")
 #4Grade
 Grade=int(input("enter grade of the student:"))
 if Grade>100:
