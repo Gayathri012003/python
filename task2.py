@@ -39,7 +39,7 @@ elif Grade>=70 and Grade<=79:
     print("Grade C")
 else:
     print("Fail")
-#4to check given numbers form valid triangle or not
+#5to check given numbers form valid triangle or not
 a=int(input("enter a number:"))
 b=int(input("enter a number:"))
 c=int(input("enter a number:"))
