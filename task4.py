@@ -24,6 +24,15 @@ if num==rev:
     print("palindrome")
 else:
     print("not palindrome")
+#string palindrome
+text=input("enter a string:")
+b=""
+for i in text:
+    b=i+b
+if text==b:
+    print("palindrome")
+else:
+    print("not palindrome")
 #perfect number
 n=int(input("enter a number: "))
 sum=0
