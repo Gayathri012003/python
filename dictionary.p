@@ -1,12 +1,12 @@
-'''list=eval(input("enter array"))
+list=eval(input("enter array"))
 count={}
 for i in list:
     if i in count:
         count[i]+=1
     else:
         count[i]=1
-print(count)'''
-'''max=0
+print(count)
+max=0
 max_key=" "
 for i,j in count.items():
     print(i,":",j)
@@ -27,7 +27,7 @@ for i,j in list.items():
     else:
         dict1[j]=[i]
         
-print(dict1)'''
+print(dict1)
 
 #find if 2 strings are anagrams
 s1=str(input("enter s1:"))
