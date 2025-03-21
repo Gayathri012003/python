@@ -43,5 +43,30 @@ for i in range(len(list)):
         b=j+b
     if list[i]==b:
         print("palindrome",list[i])
+
+
+
+#i/p:google microsoft amazon
+#o/p:google
+
+string=str(input("enter a string"))
+word=string.split()
+max_rep=0
+for i in range(len(word)):
+    count={}
+    count_rep=0
+    for j in word[i]:
+        if j in count:
+            count[j]+=1
+        else:
+            count[j]=1
+    for k,j in  count.items():
+        if j>1:
+            count_rep+=1
+    if count_rep>max_rep:
+        max_rep=count_rep
+        print(word[i])
+        
+
     
         
